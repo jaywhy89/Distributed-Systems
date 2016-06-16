@@ -1,0 +1,13 @@
+java NameServer 8000
+
+#client already know the location of nameserver and which port it is listening
+java Client {port# name}
+#current MaxPlayer set to 3
+
+# After runnign NameServer, run the followings to initiate the game
+
+java Mazewar 80xx "A"
+java Mazewar 80yy "B"
+java Mazewar 80zz "C"
+
+
